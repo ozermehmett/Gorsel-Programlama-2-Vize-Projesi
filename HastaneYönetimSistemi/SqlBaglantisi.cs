@@ -11,7 +11,7 @@ namespace HastaneYönetimSistemi
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-HN5PD9U\\SQLEXPRESS;Initial Catalog=HastaneVeritabani;Integrated Security=True;Encrypt=False");
+            SqlConnection baglan = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=HastaneVeritabani;Integrated Security=True");
             baglan.Open();
             return baglan;
         }
